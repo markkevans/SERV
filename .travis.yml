@@ -1,4 +1,6 @@
 language: csharp
+mono: latest
+dotnet: 1.1.5
 solution: "./SERV.sln"
 install:
 - travis_retry nuget restore -source "https://www.nuget.org/api/v2" ./SERV.sln
