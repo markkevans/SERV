@@ -6,6 +6,8 @@ install:
   - wget https://dev.mysql.com/get/Downloads/Connector-Net/mysql-connector-net-8.0.11-noinstall.zip -O /tmp/mysql.zip
   - unzip -o /tmp/mysql.zip
   - sudo gacutil /i ./v4.5.2/MySql.Data.dll
+
   - travis_retry nuget restore -source "https://www.nuget.org/api/v2" ./SERV.sln
 script:
-- xbuild ./SERV.sln
+  - dotnet restore
+  - xbuild ./SERV.sln
