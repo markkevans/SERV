@@ -4,8 +4,8 @@ dotnet: 1.1.5
 solution: "./SERV.sln"
 install:
   - wget https://dev.mysql.com/get/Downloads/Connector-Net/mysql-connector-net-8.0.11-noinstall.zip -O /tmp/mysql.zip
-  - cd /tmp && unzip mysql.zip
-  - cd v4.5.2 && sudo gacutil /i MySql.Data.dll
+  - unzip /tmp/mysql.zip
+  - sudo gacutil /i ./v4.5.2/MySql.Data.dll
   - travis_retry nuget restore -source "https://www.nuget.org/api/v2" ./SERV.sln
 script:
 - xbuild ./SERV.sln
