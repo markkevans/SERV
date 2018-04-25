@@ -129,7 +129,6 @@
     <Content Include="TopControl.ascx" />
     <Content Include="Default.aspx" />
     <Content Include="ViewMember.aspx" />
-    <Content Include="web-mark.config" />
     <Content Include="Login.aspx" />
     <Content Include="Panels.ascx" />
     <Content Include="Members.aspx" />
