@@ -59,9 +59,6 @@
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Web.Services" />
-    <Reference Include="MySql.Data">
-      <HintPath>..\..\TalkingEye\3party\mysql-connector-net-6\v2\mysql.data.dll</HintPath>
-    </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.EnterpriseServices" />
