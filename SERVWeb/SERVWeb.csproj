@@ -11,7 +11,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>SERVWeb</RootNamespace>
     <AssemblyName>SERVWeb</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
