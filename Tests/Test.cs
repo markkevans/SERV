@@ -26,13 +26,6 @@ namespace SERVTests
 		}
 
 		[Test]
-		public void FindWeekABStarts()
-		{
-			Assert.IsTrue(new CalendarBLL().GetCurrentWeekAStartDate().Day == 16);
-			Assert.IsTrue(new CalendarBLL().GetCurrentWeekBStartDate().Day == 23);
-		}
-
-		[Test]
 		public void GenerateCalendar()
 		{
 			new CalendarBLL().GenerateCalendar();
