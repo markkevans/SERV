@@ -9,7 +9,8 @@
     <OutputType>Library</OutputType>
     <RootNamespace>SERVIDAL</RootNamespace>
     <AssemblyName>SERVIDAL</AssemblyName>
-  </PropertyGroup>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
