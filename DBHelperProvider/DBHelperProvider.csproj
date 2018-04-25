@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>DBHelperProvider</RootNamespace>
     <AssemblyName>DBHelperProvider</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -35,9 +35,20 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Xml" />
-    <Reference Include="MySql.Data">
-      <HintPath>..\packages\MySql.Data.6.10.6\lib\net452\MySql.Data.dll</HintPath>
+    <Reference Include="Google.Protobuf">
+      <HintPath>..\packages\Google.Protobuf.3.5.1\lib\net45\Google.Protobuf.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\packages\MySql.Data.8.0.11\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SQLServerDBHelper.cs" />
@@ -54,17 +65,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="docs\MySqlTransaction.xml" />
-    <None Include="docs\MySqlParameterCollection.xml" />
-    <None Include="docs\MySqlParameter.xml" />
-    <None Include="docs\MySqlHelper.xml" />
-    <None Include="docs\MySqlException.xml" />
-    <None Include="docs\MySqlDataReader.xml" />
-    <None Include="docs\MySqlDataAdapter.xml" />
-    <None Include="docs\MySqlConnectionStringBuilder.xml" />
-    <None Include="docs\MySqlConnection.xml" />
-    <None Include="docs\MySqlCommandBuilder.xml" />
-    <None Include="docs\MySqlCommand.xml" />
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
